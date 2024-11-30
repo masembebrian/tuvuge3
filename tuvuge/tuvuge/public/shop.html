@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealer - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span>12 Street, Kampala, UG, 94101</span>
+            <span>+256 772 744470</span>
+        </div>
+        <div class="logo-bar">
+            <div class="logo"><span class="highlight">TUVUGE</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="sell-my-car.html">Sell My Car</a></li>
+                    <li class="active"><a href="#">Shop</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+      <div class="banner-text">
+          <h1>SHOP</h1>
+      </div>
+  </div>
+  
+    <main>
+        <div class="content">
+            <section class="products">
+                <h2>Showing all 9 results</h2>
+                <div class="product-list">
+                    <!-- Product Item -->
+                    <div class="product">
+                        <img src="../images/front-side-view-of-alloy-wheel-isolated-258x163.jpg" alt="Alloy Wheel">
+                        <h3>Alloy wheel isolated</h3>
+                        <p class="price">€149.00</p>
+                    </div>
+                    <div class="product">
+                      <img src="../images/aluminium-rim-258x163.jpg" alt="aluminium-rim">
+                      <h3>Alloy wheel isolated</h3>
+                      <p class="price">€149.00</p>
+                  </div><div class="product">
+                    <img src="../images/car-tires-in-a-row-258x163.jpg" alt="car-tires-in-a-row">
+                    <h3>Alloy wheel isolated</h3>
+                    <p class="price">€149.00</p>
+                </div><div class="product">
+                  <img src="../images/car-luxury-audio-system-258x163.jpg" alt="car-luxury-audio-system">
+                  <h3>Alloy wheel isolated</h3>
+                  <p class="price">€149.00</p>
+              </div><div class="product">
+                <img src="../images/chrome-double-exhaust-pipe-258x163.jpg" alt="chrome-double-exhaust-pipe">
+                <h3>Alloy wheel isolated</h3>
+                <p class="price">€149.00</p>
+            </div><div class="product">
+              <img src="../images/front-of-car-engine-258x163.jpg" alt="front-of-car-engine">
+              <h3>Alloy wheel isolated</h3>
+              <p class="price">€149.00</p>
+          </div><div class="product">
+            <img src="../images/steering-wheel-258x163.jpg" alt="steering-wheel">
+            <h3>Alloy wheel isolated</h3>
+            <p class="price">€149.00</p>
+        </div><div class="product">
+          <img src="../images/wheel-rim-in-grey-back-258x163.jpg" alt="wheel-rim-in-grey-back">
+          <h3>Alloy wheel isolated</h3>
+          <p class="price">€149.00</p>
+        </div>
+            </section>
+            <aside>
+                <div class="product-search">
+                    <h3>Product Search</h3>
+                    <input type="text" placeholder="Product Search">
+                    <button type="submit" class="search-btn">🔍</button>
+                </div>
+                <div class="filter-price">
+                  <h3>Filter by price</h3>
+                  <input type="range" id="priceRange" min="40" max="2000" value="1000" step="10" oninput="updatePriceLabel()">
+                  <div id="priceLabel">Price: $40 — $1000</div>
+                  <button onclick="filterByPrice()">Filter</button>
+              </div>
+              <div class="widget">
+                <h3>Product Categories</h3>
+                <ul class="categories">
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Engines</a></li>
+                    <li><a href="#">Rims</a></li>
+                    <li><a href="#">Tuning</a></li>
+                    <li><a href="#">Tyres</a></li>
+                    <li><a href="#">Wheels</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+              <h3>Product Tags</h3>
+              <div class="tags">
+                  <a href="#">accessories</a>,
+                  <a href="#">alloy wheel</a>,
+                  <a href="#">audio</a>,
+                  <a href="#">bass</a>,
+                  <a href="#">electronics</a>,
+                  <a href="#">engine</a>,
+                  <a href="#">rim</a>,
+                  <a href="#">stereo</a>,
+                  <a href="#">tyre</a>,
+                  <a href="#">wheel</a>
+              </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section about-us">
+                <h4>About <span class="section-title-orange">Us</span></h4>
+                <p>Our Mission: To provide a seamless car-buying experience with a commitment to quality, transparency, and customer satisfaction.</p>
+                <p>Our Vision: To be the leading car dealership in the region by continuously exceeding customer expectations and setting industry standards for quality and service.</p>
+                <p>Stop by our showroom today, or browse our online inventory to find your next car. We look forward to helping you drive off in the car of your dreams!
+
+                </p>
+            </div>
+            <div class="footer-section our-hours">
+                <h4>Our <span class="section-title-orange">Hours</span></h4>
+                <ul>
+                    <li>Monday <span>08:00 - 19:00</span></li>
+                    <li>Tuesday <span>08:00 - 19:00</span></li>
+                    <li>Wednesday <span>08:00 - 19:00</span></li>
+                    <li>Thursday <span>08:00 - 19:00</span></li>
+                    <li>Friday <span>08:00 - 19:00</span></li>
+                    <li>Saturday <span>08:00 - 19:00</span></li>
+                    <li>Sunday <span>Closed</span></li>
+                </ul>
+            </div>
+            <div class="footer-section our-contacts">
+                <h4>Our <span class="section-title-orange">Contacts</span></h4>
+                <p>you can contact us on, </p>
+                <p>+256 772 744470</p>
+                <p>+256 704 915513</p>
+                <p><a href="mailto:info@tuvuge.com">info@tuvuge.com</a></p>
+                <div class="social-media-icons">
+                    <a href="#"><img src="../images/x.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="../images/facebook.jpg" alt="Facebook"></a>
+                    <a href="#"><img src="../images/ig.jpg" alt="instagram"></a>
+                </div>
+            </div>
+            <div class="footer-section our-location">
+                <h4>Our <span class="section-title-orange">Location</span></h4>
+                <img src="../images/map2.jpg" alt="Location Map">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024. All rights reserved</p>
+            <p>TUVUGE</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span>12 Street, Kampala, UG, 94101</span>
+            <span>+256 772 744470</span>
+        </div>
+        <div class="logo-bar">
+            <div class="logo"><span class="highlight">TUVUGE</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Dealers.html">Dealers</a></li>
+                    <li><a href="sell-my-car.html">Sell My Car</a></li>
+                    <li class="active"><a href="#">Shop</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Map Section -->
+        <section class="map-section">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24169.11218933486!2d-74.0048206785688!3d40.71272810415688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDQyJzQ1LjgiTiA3NMKwMDAnMzIuOCJX!5e0!3m2!1sen!2sus!4v1698256170871!5m2!1sen!2sus"
+                width="100%"
+                height="400"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+
+        <!-- Contact Details and Form -->
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts-info">
+                    <h2>Our Contacts</h2>
+                    <p>Address Info: Lorem ipsum dolor sit amet, 658 Consectetur, Adipisicing 56 D</p>
+                    <p>Phone: +1 (234) 567-8901</p>
+                    <p>FAX: +1 (234) 567-8902</p>
+                    <p>Email: testmail@sitename.com</p>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="website">Website:</label>
+                        <input type="url" id="website" name="website">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="captcha">Are you human?</label>
+                        <input type="text" id="captcha" name="captcha" placeholder="Enter the code above" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section about-us">
+                    <h4>About <span class="section-title-orange">Us</span></h4>
+                    <p>Our Mission: To provide a seamless car-buying experience with a commitment to quality, transparency, and customer satisfaction.</p>
+                    <p>Our Vision: To be the leading car dealership in the region by continuously exceeding customer expectations and setting industry standards for quality and service.</p>
+                    <p>Stop by our showroom today, or browse our online inventory to find your next car. We look forward to helping you drive off in the car of your dreams!
+    
+                    </p>
+                </div>
+                <div class="footer-section our-hours">
+                    <h4>Our <span class="section-title-orange">Hours</span></h4>
+                    <ul>
+                        <li>Monday <span>08:00 - 19:00</span></li>
+                        <li>Tuesday <span>08:00 - 19:00</span></li>
+                        <li>Wednesday <span>08:00 - 19:00</span></li>
+                        <li>Thursday <span>08:00 - 19:00</span></li>
+                        <li>Friday <span>08:00 - 19:00</span></li>
+                        <li>Saturday <span>08:00 - 19:00</span></li>
+                        <li>Sunday <span>Closed</span></li>
+                    </ul>
+                </div>
+                <div class="footer-section our-contacts">
+                    <h4>Our <span class="section-title-orange">Contacts</span></h4>
+                    <p>you can contact us on, </p>
+                    <p>+256 772 744470</p>
+                    <p>+256 704 915513</p>
+                    <p><a href="mailto:info@tuvuge.com">info@tuvuge.com</a></p>
+                    <div class="social-media-icons">
+                        <a href="#"><img src="../images/x.jpg" alt="Twitter"></a>
+                        <a href="#"><img src="../images/facebook.jpg" alt="Facebook"></a>
+                        <a href="#"><img src="../images/ig.jpg" alt="instagram"></a>
+                    </div>
+                </div>
+                <div class="footer-section our-location">
+                    <h4>Our <span class="section-title-orange">Location</span></h4>
+                    <img src="../images/map2.jpg" alt="Location Map">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024. All rights reserved</p>
+                <p>TUVUGE</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
