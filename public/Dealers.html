@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dealer Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <a href="all-dealers.html" class="view-dealers-btn">View All Dealers</a>
+
+</head>
+<body>
+  <!-- Header Section -->
+   <!-- Header -->
+   <header>
+    <div class="top-bar">
+      <a href="signup.html" class="sign-in">Sign Up</a>
+        <span>12 Street, Kampala, UG, 94101</span>
+        <span>+256 772 744470</span>
+    </div>
+    <div class="logo-bar">
+        <div class="logo"><span class="highlight">TUVUGE</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="sell-my-car.html">Sell My Car</a></li>
+                <li class="active"><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main class="main-content">
+      <h1 class="page-title">Dealers</h1>
+
+      <div class="dealers-container">
+          <!-- Dealer Search Section -->
+          <aside class="dealer-sidebar">
+              <h2>Dealer Search</h2>
+              <form action="#" method="GET">
+                  <input type="text" placeholder="Dealer Search" class="search-input">
+                  <button type="submit" class="search-btn">🔍</button>
+              </form>
+              <ul class="filter-list">
+                  <li><label><input type="checkbox" checked> All cars (31)</label></li>
+                  <li><label><input type="checkbox"> Featured cars (4)</label></li>
+                  <li><label><input type="checkbox"> Sold cars (0)</label></li>
+                  <li><label><input type="checkbox"> Draft cars (0)</label></li>
+                  <li><label><input type="checkbox"> Damaged cars (0)</label></li>
+              </ul>
+          </aside>
+
+          <!-- Main Dealers Content -->
+          <section class="dealer-details">
+            <h2>Welcome to Car Dealer</h2>
+            <p>Browse through our selection of trusted dealers and their offerings.</p>
+            <div class="dealer-grid">
+                <!-- Example Dealer Card -->
+                <div class="dealer-card">
+                    <img src="../images/logo.jpg" alt="Dealer Logo">
+                    <h3>CAR-DEAL</h3>
+                    <p>Location: Kampala</p>
+                    <p>Contact: +256 704 915513</p>
+                </div>
+                <div class="dealer-card">
+                  <img src="../images/logo2.png" alt="Dealer Logo">
+                  <h3>IMRAN RIDES</h3>
+                  <p>Location: Nakasero</p>
+                  <p>Contact: +256 788 130097</p>
+              </div>
+                
+            </div>
+        
+            <!-- View Dealers Button -->
+            <div class="view-dealers-container">
+                <button class="view-dealers-btn">View All Dealers</button>
+            </div>
+        </section>
+        
+      </div>
+  </main>
+
+  <!-- Location on Map Section -->
+  <section class="map">
+    <div class="container">
+      <h3>Location on Map</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086405748707!2d-118.4013837249724!3d34.074043121907515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b97eabcfffc5%3A0x7287f9c41da0b0aa!2sLos%20Angeles%20County%20Museum%20of%20Art!5e0!3m2!1sen!2sus!4v1686048201516!5m2!1sen!2sus"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+    <!-- Latest Dealers Cars Section -->
+    <section class="inventory-grid">
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/audi.jpg" alt="AUDI">
+          <h3>AUDI '2020</h3>
+          <p class="price">€150,000</p>
+          <p>Location: Germany / Berlin / Gosen</p>
+          <p>Engine: 6.5 cm³ LP, Petrol</p>
+          <p>Kilometer: 30000 km</p>
+          <p>Condition: Used</p>
+          <button>View Details</button>
+      </div>
+
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/lexus.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+      <div class="car-card">
+          <div class="featured-label">FEATURED</div>
+          <img src="../images/convertible.jpg" alt="Lexus LFA">
+          <h3>Lexus LFA '2014</h3>
+          <p class="price">€310,000</p>
+          <p>Location: Poland / Lubusz / Biecz</p>
+          <p>Engine: 4.2 cm³ TSI, Diesel</p>
+          <p>Kilometer: -</p>
+          <p>Condition: New</p>
+          <button>View Details</button>
+      </div>
+  </section>
+
+  <section class="feedback-section">
+    <h3>Customer Feedback</h3>
+    <p>We value your opinion! Let us know your experience with the car bonds and rate them below.</p>
+    
+    <form action="/submit-feedback" method="POST">
+      <div class="form-group">
+        <label for="bond-name">Bond Name:</label>
+        <input type="text" id="bond-name" name="bond_name" placeholder="Enter the bond's name" required>
+      </div>
+      <div class="form-group">
+        <label for="customer-name">Your Name:</label>
+        <input type="text" id="customer-name" name="customer_name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="feedback-message">Feedback:</label>
+        <textarea id="feedback-message" name="feedback_message" placeholder="Write your feedback here..." required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="rating">Your Rating:</label>
+        <div class="star-rating">
+          <input type="radio" id="star5" name="rating" value="5" required>
+          <label for="star5" title="5 stars">★</label>
+          <input type="radio" id="star4" name="rating" value="4">
+          <label for="star4" title="4 stars">★</label>
+          <input type="radio" id="star3" name="rating" value="3">
+          <label for="star3" title="3 stars">★</label>
+          <input type="radio" id="star2" name="rating" value="2">
+          <label for="star2" title="2 stars">★</label>
+          <input type="radio" id="star1" name="rating" value="1">
+          <label for="star1" title="1 star">★</label>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">Submit Feedback</button>
+    </form>
+  
+    <div class="testimonials">
+      <h4>What Our Customers Say</h4>
+      <div class="testimonial">
+        <p><strong>Jane Doe</strong> on <em>Bond A:</em> "Great service and amazing cars!"</p>
+        <p>Rating: ★★★★☆</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>John Smith</strong> on <em>Bond B:</em> "Very professional and reliable!"</p>
+        <p>Rating: ★★★★★</p>
+      </div>
+    </div>
+  </section>
+  
+
+      <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section about-us">
+                <h4>About <span class="section-title-orange">Us</span></h4>
+                <p>Our Mission: To provide a seamless car-buying experience with a commitment to quality, transparency, and customer satisfaction.</p>
+                <p>Our Vision: To be the leading car dealership in the region by continuously exceeding customer expectations and setting industry standards for quality and service.</p>
+                <p>Stop by our showroom today, or browse our online inventory to find your next car. We look forward to helping you drive off in the car of your dreams!
+
+                </p>
+            </div>
+            <div class="footer-section our-hours">
+                <h4>Our <span class="section-title-orange">Hours</span></h4>
+                <ul>
+                    <li>Monday <span>08:00 - 19:00</span></li>
+                    <li>Tuesday <span>08:00 - 19:00</span></li>
+                    <li>Wednesday <span>08:00 - 19:00</span></li>
+                    <li>Thursday <span>08:00 - 19:00</span></li>
+                    <li>Friday <span>08:00 - 19:00</span></li>
+                    <li>Saturday <span>08:00 - 19:00</span></li>
+                    <li>Sunday <span>Closed</span></li>
+                </ul>
+            </div>
+            <div class="footer-section our-contacts">
+                <h4>Our <span class="section-title-orange">Contacts</span></h4>
+                <p>you can contact us on, </p>
+                <p>+256 772 744470</p>
+                <p>+256 704 915513</p>
+                <p><a href="mailto:info@tuvuge.com">info@tuvuge.com</a></p>
+                <div class="social-media-icons">
+                    <a href="#"><img src="../images/x.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="../images/facebook.jpg" alt="Facebook"></a>
+                    <a href="#"><img src="../images/ig.jpg" alt="instagram"></a>
+                </div>
+            </div>
+            <div class="footer-section our-location">
+                <h4>Our <span class="section-title-orange">Location</span></h4>
+                <img src="../images/map2.jpg" alt="Location Map">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024. All rights reserved</p>
+            <p>TUVUGE</p>
+        </div>
+    </footer>
+</body>
+</html>
